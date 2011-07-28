@@ -42,7 +42,7 @@ pre, code {
 }
 #header .sleeve {
 	display: inline-block;
-	margin-top: 40px;
+	width: 980px;
 }
 h1 {
 	display: inline-block;
@@ -118,7 +118,6 @@ blockquote + blockquote {
 	width: 978px;
 	margin: 0 auto;
 	position: relative;
-	margin-top: 20px;
 	overflow: hidden;
 }
 #wrapper button, #wrapper input[type="submit"] {
