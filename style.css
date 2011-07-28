@@ -83,6 +83,20 @@ blockquote + blockquote {
 	-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
+
+#header .thrive-logo {
+	width: 175px;
+	height: 90px;
+	display: block;
+	float: left;
+	background: url(i/blog.jpg);
+}
+
+#masthead {
+	width: 820px;
+	margin: auto;
+}
+
 #header {
 	width: 980px;
 	margin: 0 auto;
@@ -1481,4 +1495,119 @@ div.possibly-related {
 	display: block;
 	font-weight: normal;
 	margin: 15px 0 0;
+}
+
+/*
+  -----------------------------------
+  TabBar Magic Style Sheet
+  by Project Seven Development
+  www.projectseven.com
+   Style Theme:03 - Aurora
+  -----------------------------------
+*/
+#p7TBM {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#p7TBMroot {
+	font-size: 12px;
+	background-color: #FEFEFE;
+	background-image: url(i/bkgnd_master.gif);
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+
+#p7TBMrootbox {}
+#p7TBMroot img {
+	border: 0;
+}
+#p7TBMroot ul {
+	margin: 0;
+  	padding: 0;
+}
+#p7TBMroot li {
+	list-style-type: none;
+	display: inline;
+}
+#p7TBMroot li a {
+	float: left;
+}
+#p7TBMroot .p7TBMtext li a {
+	color: #000000;
+	padding: 8px 10px;
+	text-decoration: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+}
+#p7TBMroot .p7TBMtext .p7TBMdown, #p7TBMroot .p7TBMtext .p7TBMdown:hover {
+	color: #FFFFFF!important;
+	background-color: #990000;
+}
+/*
+The Root Level Hover. This also locks the Hover state while
+the root item's associated sub-menu is visible.
+DO NOT CHANGE SELECTOR NAMES*/
+.p7ie6Fix:active,
+#p7TBMroot .p7TBMtext .p7TBMon,
+#p7TBMroot .p7TBMtext li a:focus,
+#p7TBMroot .p7TBMtext li a:active {
+	color: #FFFFFF;
+	background-color: #990000;
+}
+#p7TBMsubwrap{
+	font-size: .8em;
+	position: relative;
+	height: auto;
+}
+.p7TBMsub {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	visibility:hidden;
+}
+.p7TBMsubbox {
+}
+.p7TBMsub ul {
+	margin: 0;
+	padding: 0;
+	background-image: url(i/iebfix.gif);
+	background-color: transparent;
+	border: 0;
+}
+.p7TBMsub li {
+	list-style-type: none;
+	display: inline;
+}
+.p7TBMsub li a {
+	background-image: url(i/iebfix.gif);
+	color: #465464;
+	display: block;
+	float: left;
+	padding: 6px 8px 12px 8px;
+}
+.p7ie6Fix:active,
+.p7TBMsub li a:hover,
+.p7TBMsub li a:active,
+.p7TBMsub li a:focus {
+	color: #FFFFFF;
+	background-image: url(i/WRCMainNavOver.gif);
+	background-repeat: no-repeat;
+}
+#p7TBM br {
+	clear: both;
+	height: 0;
+	line-height: 0.0;
+	font-size: 1px;
+}
+
+/* current marker style */
+.p7TBMsub .p7TBMmark,
+.p7TBMsub .p7TBMmark:hover,
+.p7TBMsub .p7TBMmark:active,
+.p7TBMsub .p7TBMmark:focus {
+	background-image: none;
+	color: #0000FF !important;
+	font-weight:bold;
+	cursor: default;
 }
