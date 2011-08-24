@@ -138,7 +138,7 @@ blockquote + blockquote {
 #postbox {
 	background: url(i/white-93.png);
 	position: relative;
-	padding: 16px 15px 16px 14px;
+	padding: 0px 15px 16px 14px;
 }
 #postbox .avatar {
 	margin-top: 16px;
@@ -151,7 +151,7 @@ blockquote + blockquote {
 	border-width: 1px;
 }
 #postbox .inputarea {
-	padding-left: 60px;
+	/*padding-left: 60px;*/
 	height: 100%;
 }
 .inputarea .post-input {
@@ -190,6 +190,7 @@ form#new_post {
 #postbox input#tags {
 	width: 75%;
 	float: left;
+	display: none;
 }
 .inlineediting input.tags {
 	width: 60%;
@@ -499,12 +500,12 @@ h2 a.rss:hover {
 	border: none;
 }
 .sleeve_main {
-	margin-right: 242px;
+	margin-left: 242px;
 	width: auto;
 }
 #sidebar {
 	margin-left: -1px;
-	float: right;
+	float: left;
 	width: 212px;
 	position: relative;
 	top: 0;
@@ -891,8 +892,9 @@ div.entry {
 	margin-bottom: 4px;
 }
 #post-types {
-	margin-left: 60px;
+	/*margin-left: 60px;*/
 	margin-bottom: 10px;
+	display: none;
 }
 #post-types li {
 	display: inline;
@@ -1016,7 +1018,7 @@ h3 {
 #header .sleeve {
 	background: #fff;
 }
-#header small {
+#header .sleeve h1 a, #header small {
 	color: #888;
 }
 #footer {
@@ -1227,6 +1229,10 @@ h1 {
 	font-size: 4em;
 	line-height: 1em;
 }
+#header h1 {
+	padding-left: 75px;
+	padding-top: 30px;
+}
 #header small {
 	font-size: 1.3em;
 	line-height: 1.2em;
@@ -1277,6 +1283,7 @@ h4, h5, h6 {
 	font-size: 12px;
 	text-align: right;
 	line-height: 3em;
+	display: none;
 }
 #main h4 {
 	font-size: 1em;

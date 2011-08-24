@@ -27,6 +27,11 @@
 </div>
 
 <?php wp_footer(); ?>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery('a#post').click();
+	});
+</script>
 
 </body>
 </html>
